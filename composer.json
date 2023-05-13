@@ -30,7 +30,7 @@
         },
         "laravel": {
             "providers": [
-              "Yousafitpro\\PhotoLibrary\\UcMailMarketingSoftwareServiceProvider"
+              "Yousafitpro\\MailMarketingSoftware\\UcMailMarketingSoftwareServiceProvider"
             ]
         }
     },
