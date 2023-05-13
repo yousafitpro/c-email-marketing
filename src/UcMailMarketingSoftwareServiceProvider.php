@@ -1,6 +1,6 @@
 <?php
 
-namespace Yousafitpro\PhotoLibrary;
+namespace Yousafitpro\MailMarketingSoftware;
     use Illuminate\Support\ServiceProvider;
     class UcMailMarketingSoftwareServiceProvider extends ServiceProvider {
         public function boot()
