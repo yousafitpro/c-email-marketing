@@ -1,0 +1,40 @@
+{
+    "name": "yousafitpro/Mail-Marketing-Software",
+    "type": "library",
+    "description": "Very helpful for managing photos and all type of files",
+    "keywords": ["Marketing Software","Mail Management","Grow Business","Laravel","Composer","Mail User List"],
+    "homepage": "https://github.com/yousafitpro/c-photo-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Yousaf",
+            "email": "yousaf.connect@gmail.com",
+            "homepage": "https://github.com/yousafitpro",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "files": [
+           "src/helpers/main.php"
+        ],
+        "psr-4": {
+            "Yousafitpro\\MailMarketingSoftware\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        },
+        "laravel": {
+            "providers": [
+              "Yousafitpro\\PhotoLibrary\\UcMailMarketingSoftwareServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+}
